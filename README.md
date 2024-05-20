@@ -64,7 +64,7 @@ Exemplo do corpo da requisição:
     "cpf": "123.456.789-09",
     "dataEmissao": "20/02/2024",
     "remuneracao": 2000,
-    "carogo": {
+    "cargo": {
         "id": 2
     }
 }
@@ -80,8 +80,8 @@ Exemplo do corpo da requisição:
     "cpf": "123.456.789-09",
     "dataEmissao": "20/02/2001",
     "remuneracao": 3000,
-    "gerente": {
-        "id": 3
+    "cargo": {
+        "id": 1
     }
 }
 ```
