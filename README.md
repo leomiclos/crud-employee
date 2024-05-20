@@ -87,9 +87,12 @@ Exemplo do corpo da requisição:
 ```
 
 #### Execução do projeto
-1 : Execute o comando `npm i` (caso ainda não tenha instalado todas as dependências).
 
-2: Execute o comando `npm start`. Uma aplicação contendo a aplicação AngularJs será exibida juntamente com uma API REST pré desenvolvida.
+1: Instalar o NodeJs caso ainda esteja instalado (recomendamos a versão 18.14.2)
+
+2 : Execute o comando `npm i`
+
+3: Execute o comando `npm start`. Uma aplicação contendo a aplicação AngularJs será exibida juntamente com uma API REST pré desenvolvida.
 
 #### ENTREGA
 -----------------------------------------
