@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="appModule">
-<head>
-    <meta charset="UTF-8">
-    <title>Gestor de Colaboradores</title>
-    <script src="node_modules/angular/angular.js"  type="text/javascript" ></script>
-</head>
-<body>
 
-<div ng-controller="appController">
-    <h1>{{ message }}</h1>
-</div>
-<script src="src/app.js" type="text/javascript" ></script>
+<head>
+    <meta charset="UTF-8" />
+    <title>Gestor de Colaboradores</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="node_modules/angular/angular.js" type="text/javascript"></script>
+    <script src="node_modules/angular-route/angular-route.js" type="text/javascript"></script>
+    <script src="src/app.js" type="text/javascript"></script>
+    <script src="src/components/login/loginController.js" type="text/javascript"></script>
+    <script src="src/components/register/registerController.js" type="text/javascript"></script>
+    <script src="src/components/list/listController.js" type="text/javascript"></script>
+    <script src="src/components/header/header.js" type="text/javascript"></script>
+
+</head>
+
+<body style="width: 100%;"  ng-controller="appController"> 
+
+    <app-header ng-show="showHeader()"></app-header>
+    
+    <div>
+        <div ng-view></div>
+    </div>
+
 </body>
+
 </html>

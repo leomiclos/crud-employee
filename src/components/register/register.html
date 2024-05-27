@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="src/components/register/register.css" />
+</head>
+    <div class="page" ng-controller="registerController">
+        <form method="POST" class="formRegister">
+            <h1>Cadastro de Colaborador</h1>
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Digite o nome" ng-model="colaborador.nome" required />
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" placeholder="Digite o CPF" ng-model="colaborador.cpf" required />
+
+            <label for="admissionDate">Data de Admissão</label>
+            <input type="date" id="admissionDate" ng-model="colaborador.dataAdmissao" required />
+
+            <label for="salary">Remuneração</label>
+            <input type="number" id="salary" placeholder="Digite a remuneração" ng-model="colaborador.remuneracao" required />
+
+            <label for="position">Cargo</label>
+            <select id="position" ng-model="colaborador.cargo.id" required>
+                <option ng-repeat="cargo in cargos" value="{{ cargo.id }}">{{ cargo.descricao }}</option>
+            </select>
+            
+
+            <input type="submit" value="Cadastrar" class="btn" ng-click="register()" />
+        </form>
+    </div>
+</html>

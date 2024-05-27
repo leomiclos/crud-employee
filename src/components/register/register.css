@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.page {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+}
+
+.formRegister h1 {
+    margin-bottom: 20px;
+}
+
+.formRegister label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formRegister input, .formRegister select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formRegister .btn {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formRegister .btn:hover {
+    background-color: #0056b3;
+}

@@ -11,7 +11,8 @@
   "author": "Memory Sistemas Lda.",
   "license": "ISC",
   "dependencies": {
-    "angular": "1.8.3",
+    "angular": "^1.8.3",
+    "angular-route": "^1.8.3",
     "concurrently": "8.2.2",
     "lite-server": "2.6.1",
     "rxjs": "7.5.0"

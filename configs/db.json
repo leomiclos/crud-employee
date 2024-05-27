@@ -299,6 +299,55 @@
       "cargo": {
         "id": 2
       }
+    },
+    {
+      "id": "f8fc",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "2024-05-21T03:00:00.000Z",
+      "remuneracao": 9000,
+      "cargo": "SUBORDINADO"
+    },
+    {
+      "id": "91d2",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "14/05/2024",
+      "remuneracao": 9000,
+      "cargo": "2"
+    },
+    {
+      "id": "30b0",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "04/05/2024",
+      "remuneracao": 9000,
+      "cargo": "2"
+    },
+    {
+      "id": "e669",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "2024-05-06T03:00:00.000Z",
+      "remuneracao": 9000,
+      "cargo": "2"
+    },
+    {
+      "id": "2153",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "2024-05-14T03:00:00.000Z",
+      "remuneracao": 9000
+    },
+    {
+      "id": "c914",
+      "nome": "Leonardo Ribeiro Miclos de Abreu",
+      "cpf": "123-456-789/10",
+      "dataAdmissao": "14/05/2024",
+      "remuneracao": 9000,
+      "cargo": {
+        "id": "1"
+      }
     }
   ]
 }

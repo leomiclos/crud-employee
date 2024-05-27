@@ -1,0 +1,37 @@
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+img {
+  width: 20%;
+}
+
+header,
+ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 106, 199);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.container {
+  width: 100%;
+}

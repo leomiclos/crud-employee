@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+th,
+td {
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+}
+
+.alter {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
