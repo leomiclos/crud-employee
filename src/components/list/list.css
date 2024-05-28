@@ -20,3 +20,7 @@ td {
     justify-content: center;
     align-items: center;
 }
+
+button{
+    min-width: 10px
+}

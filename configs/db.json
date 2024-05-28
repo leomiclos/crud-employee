@@ -1,11 +1,11 @@
 {
   "cargos": [
     {
-      "id": "1",
+      "id": 1,
       "descricao": "GERENTE"
     },
     {
-      "id": "2",
+      "id": 2,
       "descricao": "SUBORDINADO"
     }
   ],
@@ -15,9 +15,9 @@
       "nome": "Pedro Mauricio",
       "cpf": "123.456.789-09",
       "dataAdmissao": "20/02/2024",
-      "remuneracao": 2000,
+      "remuneracao": 20000,
       "cargo": {
-        "id": 2
+        "id": "2"
       }
     },
     {
@@ -27,7 +27,7 @@
       "dataAdmissao": "15/03/2024",
       "remuneracao": 3500,
       "cargo": {
-        "id": 2
+        "id": "2"
       }
     },
     {
@@ -35,9 +35,9 @@
       "nome": "João Oliveira",
       "cpf": "456.789.012-34",
       "dataAdmissao": "01/04/2024",
-      "remuneracao": 2700,
+      "remuneracao": 270000,
       "cargo": {
-        "id": 1
+        "id": "2"
       }
     },
     {
@@ -57,7 +57,7 @@
       "dataAdmissao": "25/06/2024",
       "remuneracao": 2900,
       "cargo": {
-        "id": 2
+        "id": "1"
       }
     },
     {
@@ -67,7 +67,7 @@
       "dataAdmissao": "07/07/2024",
       "remuneracao": 3800,
       "cargo": {
-        "id": 2
+        "id": "1"
       }
     },
     {

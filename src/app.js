@@ -14,8 +14,12 @@ app.config(function($routeProvider) {
             templateUrl: 'src/components/list/list.html',
             controller: 'listController'
         })
+        .when('/edit',{
+            templateUrl: 'src/components/modal/edit/edit.html',
+            controller: 'editController'
+        })
         .otherwise({
-            redirectTo: '/login'
+            redirectTo: '/list'
         });
 });
 
