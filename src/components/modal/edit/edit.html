@@ -17,8 +17,9 @@
             <input type="number" id="remuneracao" ng-model="colaboradorEditado.remuneracao" required>
             <label for="cargo">Cargo:</label>
             <select id="cargo" ng-model="colaboradorEditado.cargo.id" ng-change="cargoChange()" required>
-                <option ng-repeat="cargo in cargos" value="{{cargo.id}}">{{cargo.descricao}}</option>
+                <option ng-repeat="cargo in cargos" ng-value="cargo.id">{{cargo.descricao}}</option>
             </select>
+            
             <button type="button" class="button-save" ng-click="salvarEdicao()">Salvar</button>
         </form>
     </div>

@@ -11,33 +11,13 @@
   ],
   "colaboradores": [
     {
-      "id": "fae1",
-      "nome": "Pedro Mauricio",
-      "cpf": "123.456.789-09",
-      "dataAdmissao": "20/02/2024",
-      "remuneracao": 20000,
-      "cargo": {
-        "id": "2"
-      }
-    },
-    {
-      "id": "fae2",
-      "nome": "Maria Silva",
-      "cpf": "987.654.321-10",
-      "dataAdmissao": "15/03/2024",
-      "remuneracao": 3500,
-      "cargo": {
-        "id": "2"
-      }
-    },
-    {
       "id": "fae3",
       "nome": "João Oliveira",
       "cpf": "456.789.012-34",
       "dataAdmissao": "01/04/2024",
-      "remuneracao": 270000,
+      "remuneracao": 2700,
       "cargo": {
-        "id": "2"
+        "id": 1
       }
     },
     {
@@ -47,7 +27,7 @@
       "dataAdmissao": "10/05/2024",
       "remuneracao": 4200,
       "cargo": {
-        "id": 1
+        "id": 2
       }
     },
     {
@@ -57,7 +37,7 @@
       "dataAdmissao": "25/06/2024",
       "remuneracao": 2900,
       "cargo": {
-        "id": "1"
+        "id": 1
       }
     },
     {
@@ -67,7 +47,7 @@
       "dataAdmissao": "07/07/2024",
       "remuneracao": 3800,
       "cargo": {
-        "id": "1"
+        "id": 1
       }
     },
     {
@@ -78,16 +58,6 @@
       "remuneracao": 2500,
       "cargo": {
         "id": 2
-      }
-    },
-    {
-      "id": "fae8",
-      "nome": "Carolina Martins",
-      "cpf": "654.321.098-76",
-      "dataAdmissao": "02/09/2024",
-      "remuneracao": 4000,
-      "cargo": {
-        "id": 1
       }
     },
     {
@@ -151,16 +121,6 @@
       }
     },
     {
-      "id": "fae15",
-      "nome": "Felipe Mendes",
-      "cpf": "765.432.109-21",
-      "dataAdmissao": "30/01/2025",
-      "remuneracao": 2700,
-      "cargo": {
-        "id": 1
-      }
-    },
-    {
       "id": "fae16",
       "nome": "Mariana Oliveira",
       "cpf": "210.987.654-65",
@@ -207,7 +167,7 @@
       "dataAdmissao": "16/04/2025",
       "remuneracao": 2400,
       "cargo": {
-        "id": 2
+        "id": 1
       }
     },
     {
@@ -301,52 +261,13 @@
       }
     },
     {
-      "id": "f8fc",
-      "nome": "Leonardo Ribeiro Miclos de Abreu",
-      "cpf": "123-456-789/10",
-      "dataAdmissao": "2024-05-21T03:00:00.000Z",
-      "remuneracao": 9000,
-      "cargo": "SUBORDINADO"
-    },
-    {
-      "id": "91d2",
-      "nome": "Leonardo Ribeiro Miclos de Abreu",
-      "cpf": "123-456-789/10",
-      "dataAdmissao": "14/05/2024",
-      "remuneracao": 9000,
-      "cargo": "2"
-    },
-    {
-      "id": "30b0",
-      "nome": "Leonardo Ribeiro Miclos de Abreu",
-      "cpf": "123-456-789/10",
-      "dataAdmissao": "04/05/2024",
-      "remuneracao": 9000,
-      "cargo": "2"
-    },
-    {
-      "id": "e669",
-      "nome": "Leonardo Ribeiro Miclos de Abreu",
-      "cpf": "123-456-789/10",
-      "dataAdmissao": "2024-05-06T03:00:00.000Z",
-      "remuneracao": 9000,
-      "cargo": "2"
-    },
-    {
-      "id": "2153",
-      "nome": "Leonardo Ribeiro Miclos de Abreu",
-      "cpf": "123-456-789/10",
-      "dataAdmissao": "2024-05-14T03:00:00.000Z",
-      "remuneracao": 9000
-    },
-    {
       "id": "c914",
       "nome": "Leonardo Ribeiro Miclos de Abreu",
       "cpf": "123-456-789/10",
       "dataAdmissao": "14/05/2024",
       "remuneracao": 9000,
       "cargo": {
-        "id": "1"
+        "id": 1
       }
     }
   ]

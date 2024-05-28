@@ -19,7 +19,7 @@
             <input type="number" id="salary" placeholder="Digite a remuneração" ng-model="colaborador.remuneracao" required />
 
             <label for="position">Cargo</label>
-            <select id="position" ng-model="colaborador.cargo.id" required>
+            <select id="position" ng-model="colaborador.cargo.id" required >
                 <option ng-repeat="cargo in cargos" value="{{ cargo.id }}">{{ cargo.descricao }}</option>
             </select>
             
