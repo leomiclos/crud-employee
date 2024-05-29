@@ -4,7 +4,6 @@ app.controller("listController", function ($scope, $http, $compile) {
 
   //requisições
 
-
   $http.get("http://localhost:3000/colaboradores").then(
     function (response) {
       $scope.colaboradores = response.data;
@@ -30,33 +29,31 @@ app.controller("listController", function ($scope, $http, $compile) {
     return cargo ? cargo.descricao : "Desconhecido";
   }
 
-  $scope.buscaPorNome = function (nome) {
+  // Função para filtrar por nome
+  $scope.filtrarPorNome = function (nome) {
     if (nome && nome.trim() !== "") {
-      $http.get(`http://localhost:3000/colaboradores?nome_like=${nome}`).then(
-        function (response) {
-          $scope.colaboradores = response.data;
-        },
-        function (error) {
-          console.error("Erro ao obter colaboradores:", error);
-        }
-      );
+      // Filtrar colaboradores com base no nome
+      $scope.colaboradores = $scope.colaboradores.filter(function (
+        colaborador
+      ) {
+        return colaborador.nome.toLowerCase().includes(nome.toLowerCase());
+      });
     } else {
       // Se o campo de busca estiver vazio, carrega todos os colaboradores
       $scope.carregarColaboradores();
     }
   };
 
-  
-  $scope.carregarColaboradores = function(){
+  $scope.carregarColaboradores = function () {
     $http.get("http://localhost:3000/colaboradores").then(
-        function (response) {
-          $scope.colaboradores = response.data;
-        },
-        function (error) {
-          console.error("Erro ao obter colaboradores:", error);
-        }
-      );
-  }
+      function (response) {
+        $scope.colaboradores = response.data;
+      },
+      function (error) {
+        console.error("Erro ao obter colaboradores:", error);
+      }
+    );
+  };
 
   $scope.obterDescricaoCargoColaborador = function (idCargo) {
     return obterDescricaoCargo(idCargo);

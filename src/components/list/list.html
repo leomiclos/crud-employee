@@ -12,7 +12,7 @@
     <table>
 
         <div style="margin-bottom: 10px;">
-            <input type="text" name="search" placeholder="Insira um nome" id="" ng-model="nome" ng-change="buscaPorNome(nome)">
+            <input type="text" name="search" placeholder="Busque por nome" id="" ng-model="nome" ng-change="filtrarPorNome(nome)">
         </div>
 
         <thead>
@@ -59,8 +59,10 @@
                     </button>
                 </td>
             </tr>
+            
         </tbody>
     </table>
+    
 </body>
 
 </html>
